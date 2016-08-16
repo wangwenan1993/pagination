@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pagination</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/pagination.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="whole-wrapper">
+    <nav>
+        <ul class="pagination pagination-md">
+
+            <li onclick="pagination.jumpToHeadOrTail(1);">
+                <a href="#" aria-label="First">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li onclick="pagination.jumpOnePage(1);">
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&lsaquo;</span>
+                </a>
+            </li>
+            <li onclick="pagination.jumpOnePage(2);">
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&rsaquo;</span>
+                </a>
+            </li>
+            <li onclick="pagination.jumpToHeadOrTail(2);">
+                <a href="#" aria-label="Last">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <input id="page_number" type="number" class="input-sm form-control">
+            <button class="btn btn-sm btn-primary jump" onclick="pagination.gotoOnePage();">GO</button>
+        </form>
+    </nav>
+
+</div>
+<!-- /#page-wrapper -->
+</div>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/pagination.js"></script>
+
+<script>
+    pagination.init(3, 10);
+    pagination.initCurrentPage(2, 2);
+</script>
+</body>
+</html>

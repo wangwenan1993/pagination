@@ -1,0 +1,35 @@
+nav {
+    margin: 20px 0 0 10px;
+}
+nav>ul {
+    margin: 0% !important;
+    vertical-align: middle;
+}
+
+li>a.selected_page {
+    display: inline;
+}
+li>a.selected_page:hover {
+    background: #31e1ff;
+    color: #FFFFFF;
+}
+li>a.selected_page.active {
+    background: #43BFE3;
+    color: #FFFFFF;
+}
+form {
+    display: inline-flex !important;
+    height: 100%;
+    margin: 0%;
+    vertical-align: middle;
+}
+
+input#page_number {
+    height: 33px;
+    width: 40px !important;
+    padding: 2px 4px !important;
+}
+button.jump {
+    padding: 0 5px !important;
+    margin-left: 3px;
+}

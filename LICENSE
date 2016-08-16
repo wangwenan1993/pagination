@@ -1,0 +1,9 @@
+wangwenan/pagination package is open-sourced software licensed under the MIT license
+
+# pagination
+
+createed by wangwenan at 2016.8.16
+
+The project designed and implemented the function of pagination,
+that We can set different display pages, whether it is even or odd
+
