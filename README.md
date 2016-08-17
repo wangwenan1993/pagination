@@ -39,7 +39,7 @@ jquery 分页插件
 
 1.可见页为奇数：
 
-	![image](https://github.com/wangwenan1993/pagination/raw/master/screenshoot/visiable_page=3.png)
+	![image](screenshoot/visiable_page=3.png)
 
 2.可见页为偶数：
 
