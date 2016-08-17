@@ -39,15 +39,15 @@ jquery 分页插件
 
 1.可见页为奇数：
 
-	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=3.png)
+	![image](https://github.com/wangwenan1993/pagination/raw/master/screenshoot/visiable_page=3.png)
 
 2.可见页为偶数：
 
-	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=2.png)
+	![image](https://github.com/wangwenan1993/pagination/raw/master/screenshoot/visiable_page=2.png)
 
 3.总页数=2 < 可见页数=3
 
-	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/total_page=3-visiable_page=3.png)
+	![image](https://github.com/wangwenan1993/pagination/raw/master/screenshoot/total_page=3-visiable_page=3.png)
 
 
 
