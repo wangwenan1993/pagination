@@ -39,17 +39,15 @@ jquery 分页插件
 
 1.可见页为奇数：
 
-	<img src="https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=3.png" />
-
-	![image](http://exp.bdstatic.com/static/common/widget/top-search-box/logo_1e63520.png)
+	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=3.png)
 
 2.可见页为偶数：
 
-	<img src="https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=2.png" />
+	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/visiable_page=2.png)
 
 3.总页数=2 < 可见页数=3
 
-	<img src="https://github.com/wangwenan1993/pagination/blob/master/screenshoot/total_page=3-visiable_page=3.png" />
+	![image](https://github.com/wangwenan1993/pagination/blob/master/screenshoot/total_page=3-visiable_page=3.png)
 
 
 
